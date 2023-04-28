@@ -1,0 +1,197 @@
+#map {
+  height: 60vh;
+  width: 40vw;
+  float: right;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  color: azure;
+}
+.sidebar {
+  background-color: rgb(15, 139, 173);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.timing {
+  background-color: rgb(15, 139, 173);
+  border-style: none;
+  height: 40px;
+  font-size: 40px;
+  display: flex;
+  margin-bottom: 80px;
+  color: azure;
+}
+
+.sidebar p {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 100px;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*
+  Css code writen here...
+*/
+/* Body section...@ */
+
+.nav-type {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #59e9ff,
+    #09a8a0,
+    #2e91b5,
+    #335fff,
+    #10d8b0
+  );
+
+  animation: 12s myGradient infinite;
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #0800ff;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fa-search {
+  transition: 1s;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.active {
+  transition: 1s;
+}
+
+.active1 {
+  transition: 1s;
+}
+
+.active2 {
+  transition: 1s;
+}
+
+.active3 {
+  transition: 1s;
+}
+
+.anchor {
+  color: #fff;
+  text-decoration: none;
+  padding: 45px 45px;
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.left {
+  display: flex;
+}
+
+.image img {
+  border-radius: 50%;
+  margin-left: 80px;
+  height: 40px;
+}
+
+.xyz {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.done {
+  background-color:#10AEA8;
+  height: 50px;
+  border-radius: 10px;
+  width: 150px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+.done a {
+  font-weight: bold;
+  color: rgb(243, 232, 232);
+  text-decoration: none;
+}
+
+.done:hover {
+  background-color:#0ca29d;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  /* background-color: rgb(147, 114, 114); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.left1 img{
+  height: 40px;
+}
+.left1{
+  display: flex;
+  align-items: center;
+}
+.left1 a{
+   margin-left: 10px;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight:600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+.LINKS{
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight:600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+.right1 a {
+  margin-left: 20px;
+}

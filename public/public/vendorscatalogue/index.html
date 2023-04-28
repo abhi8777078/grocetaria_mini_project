@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<!-- 
+<body>
+  <div class="main">
+    <div class="nav">
+      <div class="left1">
+        <img src="logo2.png" alt=""  href="">
+        <a class="FRESCO" href="">FRESCO CART</a>
+      </div>
+      <div class="right1">
+      <a  class="LINKS" href="">HOME</a>
+      <a  class="LINKS" href="">ABOUT</a>
+      <a  class="LINKS" href="">CONTACT</a>
+      </div>
+    </div>
+    
+      </div> -->
+
+  <div class="main2">
+    <div class="nav">
+      <div class="left1">
+        <img src="../logo2.png" alt=""  href="">
+        <a class="FRESCO" href="">GROCETERIA</a>
+      </div>
+      <div class="right1">
+      <a  class="LINKS" href="../index.html">HOME</a>
+      <a  class="LINKS" href="../about/about.html">ABOUT</a>
+      <a  class="LINKS" href="../contact/contact.html">CONTACT</a>
+      </div>
+    </div>
+    
+      </div>
+
+  <div class="header">
+    ADD ITEMS
+  </div>
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f2.jpg" alt=""></div>
+      <p class="product-name">APPLE</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('APPLE')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f5.jpg" alt=""></div>
+      <p class="product-name">WATERMELON</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('WATERMELON')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f1.jpg" alt=""></div>
+      <p Class="product-name">BANANA</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  >
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('BANANA')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f3.jpg" alt=""></div>
+      <p Class="product-name">LEMON</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('LEMON')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f4.jpg" alt=""></div>
+      <p Class="product-name">PAPAYA</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('PAPAYA')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f5.jpg" alt=""></div>
+      <p Class="product-name">WATERMELON</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('WATERMELON')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f7.jpg" alt=""></div>
+      <p Class="product-name">PINEAPPLE</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('PINEAPPLE')" id="insert">ADD</button>
+        <!-- <button class="btn " id="read">Read</button> 
+        <button class="btn " id="update">Update</button> -->
+        <button class="btn " class="delete">Delete</button> 
+        <!-- <p class="btn " id="insert">Add</p>
+        <p class="btn" class="delete">Delete</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f9.jpg" alt=""></div>
+      <p Class="product-name">SEETFAL</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  >
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('SEETFAL')" id="insert">ADD</button>
+        <button class="btn " class="delete">Delete</button> 
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="main">
+    <div class="left">
+      <div class="img"><img src="img/f10.jpg" alt=""></div>
+      <p Class="product-name">POMEGRENATE</p>
+    </div>
+
+    <div class="right">
+      <div class="mid">
+        <div class="price">
+           <input class ="prices" placeholder="Price " type="number">
+        </div>
+      </div>
+      <div>
+        <div class="kgcount">
+          <input class="weight" class ="wght" type="number" min="0" placeholder="Weight"  style="">
+        </div>
+      </div>
+
+      <div class="mid">
+        <button class="btn "  onclick ="callfirebase('POMEGRENATE')" id="insert">ADD</button>
+        <!-- <button class="btn " id="update">Update</button>  -->
+        <button class="btn " class="delete">Delete</button> 
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class="main bottom">
+<button class="final"><a href="../map/index.html">DONE</a></button>
+</div>
+
+  </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="script.js"></script>
+
+</html>
